@@ -22,8 +22,6 @@ module Botan
         req.body = JSON.dump({text: message})
       end
 
-      puts response.body
-
       JSON.parse(response.body)
     rescue => e
       raise Botan::ResponseError.new(e.message)
