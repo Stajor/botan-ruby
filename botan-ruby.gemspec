@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Alex Belenky"]
   spec.email         = ["bagirs@gmail.com"]
 
-  spec.summary       = "Ruby wrapper for botan,io"
+  spec.summary       = "Ruby wrapper for botan.io"
   spec.homepage      = "https://github.com/Stajor/botan-ruby.git"
   spec.license       = "MIT"
 
